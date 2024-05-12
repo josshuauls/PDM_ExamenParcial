@@ -1,0 +1,20 @@
+[
+  {
+    "pregunta": "¿Cuál es la capital de Francia?",
+    "respuestas": ["París", "Madrid", "Londres", "Berlín"],
+    "correcta": "París",
+    "descripcion": "París es la capital de Francia y una de las ciudades más importantes del mundo, conocida por su historia, cultura, arquitectura y gastronomía."
+  },
+  {
+    "pregunta": "¿Quién escribió 'Don Quijote de la Mancha'?",
+    "respuestas": ["Miguel de Cervantes", "Gabriel García Márquez", "William Shakespeare", "Leo Tolstoy"],
+    "correcta": "Miguel de Cervantes",
+    "descripcion": "Miguel de Cervantes Saavedra fue un escritor español del Siglo de Oro, conocido principalmente por su obra maestra 'Don Quijote de la Mancha', considerada una de las mejores novelas de la literatura universal."
+  },
+  {
+    "pregunta": "¿Cuál es el océano más grande del mundo?",
+    "respuestas": ["Océano Pacífico", "Océano Atlántico", "Océano Índico", "Océano Ártico"],
+    "correcta": "Océano Pacífico",
+    "descripcion": "El Océano Pacífico es el más grande y profundo de los océanos del mundo, cubriendo más del 30% de la superficie de la Tierra y albergando una vasta cantidad de vida marina."
+  }
+]

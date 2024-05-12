@@ -6,9 +6,25 @@
     tools:context=".AnswerFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
+        android:id="@+id/valor_respuesta"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="CORRECTO"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:id="@+id/respuesta_detallada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion_1"
+        android:textSize="40sp"
+        android:layout_margin="30dp"
+        />
 
 </FrameLayout>

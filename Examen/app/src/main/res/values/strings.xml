@@ -2,4 +2,34 @@
     <string name="app_name">AplicaciónExamenParcial</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Jugar">Jugar</string>
+
+    <!-- Pregunta 1 -->
+    <string name="pregunta_1">¿Cuál es la capital de Francia?</string>
+    <string name="respuesta_1_1">París</string>
+    <string name="respuesta_1_2">Madrid</string>
+    <string name="respuesta_1_3">Londres</string>
+    <string name="respuesta_1_4">Berlín</string>
+    <string name="respuesta_correcta_1">París</string>
+    <string name="descripcion_1">París es la capital de Francia y una de las ciudades más importantes del mundo, conocida por su historia, cultura, arquitectura y gastronomía.</string>
+
+    <!-- Pregunta 2 -->
+    <string name="pregunta_2">¿Quién escribió 'Don Quijote de la Mancha'?</string>
+    <string name="respuesta_2_1">Miguel de Cervantes</string>
+    <string name="respuesta_2_2">Gabriel García Márquez</string>
+    <string name="respuesta_2_3">William Shakespeare</string>
+    <string name="respuesta_2_4">Leo Tolstoy</string>
+    <string name="respuesta_correcta_2">Miguel de Cervantes</string>
+    <string name="descripcion_2">Miguel de Cervantes Saavedra fue un escritor español del Siglo de Oro, conocido principalmente por su obra maestra \'Don Quijote de la Mancha\', considerada una de las mejores novelas de la literatura universal.</string>
+
+    <!-- Pregunta 3 -->
+    <string name="pregunta_3">¿Cuál es el océano más grande del mundo?</string>
+    <string name="respuesta_3_1">Océano Pacífico</string>
+    <string name="respuesta_3_2">Océano Atlántico</string>
+    <string name="respuesta_3_3">Océano Índico</string>
+    <string name="respuesta_3_4">Océano Ártico</string>
+    <string name="respuesta_correcta_3">Océano Pacífico</string>
+    <string name="descripcion_3">El Océano Pacífico es el más grande y profundo de los océanos del mundo, cubriendo más del 30% de la superficie de la Tierra y albergando una vasta cantidad de vida marina.</string>
+
 </resources>

@@ -1,14 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuestionFragment">
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- Pregunta -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pregunta_1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp"/>
 
-</FrameLayout>
+    <!-- Opciones de respuesta -->
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/respuesta_1_1"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:backgroundTint="@color/option_button_color"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/respuesta_1_2"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:backgroundTint="@color/option_button_color"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/respuesta_1_3"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:backgroundTint="@color/option_button_color"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/respuesta_1_4"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:backgroundTint="@color/option_button_color"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
