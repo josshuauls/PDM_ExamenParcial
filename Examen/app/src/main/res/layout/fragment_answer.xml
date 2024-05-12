@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
     tools:context=".AnswerFragment">
+
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -11,20 +14,27 @@
         android:id="@+id/valor_respuesta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="top"
         android:text="CORRECTO"
         android:textAlignment="center"
         android:textSize="30sp"
-        android:layout_marginBottom="30dp"
         />
 
     <TextView
         android:id="@+id/respuesta_detallada"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="@string/descripcion_1"
         android:textSize="40sp"
-        android:layout_margin="30dp"
         />
-
-</FrameLayout>
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:text="CONTINUAR"
+        android:backgroundTint="@color/option_button_color"
+        />
+</LinearLayout>

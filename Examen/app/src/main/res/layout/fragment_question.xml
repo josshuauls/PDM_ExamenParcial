@@ -21,40 +21,40 @@
         android:id="@+id/option1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/respuesta_1_1"
-        android:textSize="20sp"
-        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
         android:backgroundTint="@color/option_button_color"
-        android:layout_marginBottom="8dp"/>
+        android:text="@string/respuesta_1_1"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/option2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/respuesta_1_2"
-        android:textSize="20sp"
-        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
         android:backgroundTint="@color/option_button_color"
-        android:layout_marginBottom="8dp"/>
+        android:text="@string/respuesta_1_2"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/option3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/respuesta_1_3"
-        android:textSize="20sp"
-        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
         android:backgroundTint="@color/option_button_color"
-        android:layout_marginBottom="8dp"/>
+        android:text="@string/respuesta_1_3"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/option4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/respuesta_1_4"
-        android:textSize="20sp"
-        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
         android:backgroundTint="@color/option_button_color"
-        android:layout_marginBottom="8dp"/>
+        android:text="@string/respuesta_1_4"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
 </LinearLayout>

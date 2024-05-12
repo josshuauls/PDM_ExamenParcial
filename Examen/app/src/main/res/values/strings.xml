@@ -15,7 +15,7 @@
     <string name="descripcion_1">París es la capital de Francia y una de las ciudades más importantes del mundo, conocida por su historia, cultura, arquitectura y gastronomía.</string>
 
     <!-- Pregunta 2 -->
-    <string name="pregunta_2">¿Quién escribió 'Don Quijote de la Mancha'?</string>
+    <string name="pregunta_2">¿Quién escribió: Don Quijote de la Mancha?</string>
     <string name="respuesta_2_1">Miguel de Cervantes</string>
     <string name="respuesta_2_2">Gabriel García Márquez</string>
     <string name="respuesta_2_3">William Shakespeare</string>
