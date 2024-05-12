@@ -12,13 +12,28 @@ var numPregunta = 1
 class QuestionFragment : Fragment(R.layout.fragment_question) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        val chamo = Bundle()
         val option1 = view.findViewById<Button>(R.id.option1)
         val option2 = view.findViewById<Button>(R.id.option2)
         val option3 = view.findViewById<Button>(R.id.option3)
         val option4 = view.findViewById<Button>(R.id.option4)
         option1.setOnClickListener(){
             var respuesta = validarRespuesta(option1.text.toString())
-            var chamo = Bundle()
+            chamo.putBoolean("rappy",respuesta)
+            findNavController().navigate(R.id.action_questionFragment_to_answerFragment,chamo)
+        }
+        option2.setOnClickListener(){
+            var respuesta = validarRespuesta(option2.text.toString())
+            chamo.putBoolean("rappy",respuesta)
+            findNavController().navigate(R.id.action_questionFragment_to_answerFragment,chamo)
+        }
+        option3.setOnClickListener(){
+            var respuesta = validarRespuesta(option3.text.toString())
+            chamo.putBoolean("rappy",respuesta)
+            findNavController().navigate(R.id.action_questionFragment_to_answerFragment,chamo)
+        }
+        option4.setOnClickListener(){
+            var respuesta = validarRespuesta(option4.text.toString())
             chamo.putBoolean("rappy",respuesta)
             findNavController().navigate(R.id.action_questionFragment_to_answerFragment,chamo)
         }
@@ -30,7 +45,12 @@ class QuestionFragment : Fragment(R.layout.fragment_question) {
             3 -> if(entrada == "Océano Pacífico") true else false
             else -> false
         }
-        Toast.makeText(context,"AAEA",Toast.LENGTH_LONG).show()
+        if(validacion == true) {
+            Toast.makeText(context, "Correcto", Toast.LENGTH_LONG).show()
+        }
+        else{
+            Toast.makeText(context, "Más Falso que Carlitos", Toast.LENGTH_LONG).show()
+        }
         return validacion
     }
 }
